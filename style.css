@@ -30,17 +30,16 @@
     cursor: pointer;
 }
 /* main */
-header{
-    background-color: #FFF8F3;
-    background: url("./images/developer.png") top left no-repeat,
-                url("./images/header_bg.png") bottom right no-repeat;
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-size: auto cover;
-    
-    padding-top: 50px;
+ header{ 
+ background-color: #FFFFFF;
+ background-image: url("images/developer.png") , url("images/header_bg.png");
+ background-repeat: no-repeat;
+ background-position: 23px 38px, bottom right;
+ padding-top: 50px;
 
 }
+
+
 nav{
     width: 71%;
     max-width: 1140px;
@@ -66,6 +65,7 @@ nav .menu a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 #banner .banner-contain{
     max-width: 450px;
@@ -90,7 +90,8 @@ nav .menu a{
     
 }
 #banner .banner-img img{
-    max-width: 585;
+    max-width: 585px;
     vertical-align: middle;
-    text-align: center;
+     background-color: transparent; 
+    
 }
